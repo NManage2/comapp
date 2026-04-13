@@ -33,5 +33,25 @@ const data = {
       href: "/page/help",
     },
   ],
+  carousels: [
+    {
+      title: "Most Popular Shoes For Sale",
+      buttonCaption: "Shop Now",
+      image: "/images/banner1.jpg",
+      url: "/search?category=Shoes",
+    },
+    {
+      title: "Best Sellers in T-Shirts",
+      buttonCaption: "Shop Now",
+      image: "/images/banner2.png",
+      url: "/search?category=T-Shirts",
+    },
+    {
+      title: "Articles de menages",
+      buttonCaption: "See More",
+      image: "/images/banner3.jpg",
+      url: "/search?category=Wrist Watches",
+    },
+  ],
 }
 export default data
